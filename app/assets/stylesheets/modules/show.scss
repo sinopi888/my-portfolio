@@ -1,0 +1,57 @@
+.show
+  .default-container{
+    height: auto;
+    width: 100%;
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 50px 0;
+    color: #eee;
+    .container {
+      font-family: MODERNESANS, 'YakuHanJP', 'NotoSansJP', sans-serif;
+      margin: 30px;
+      .name {
+        line-height: 50px;
+        &__my-name {
+          font-size: 25px;
+          margin: 0 0 20px 0;
+        }
+      }
+      .text {
+        line-height: 20px;
+        font-size: 20px;
+        margin: 10px 0 10px 20px;
+        &__content {
+          margin-top: 10px;
+          font-size: 14px;
+          letter-spacing: 0.07em;
+        }       
+      }
+      .skill {
+        line-height: 30px;
+        font-size: 22px;
+        margin: 40px 0 0 20px;
+        .skill-content {
+          font-size: 17px;
+          letter-spacing: 0.06em;
+        }
+        .skill-other {
+          margin-left: 20px;
+          font-size: 15px;
+          letter-spacing: 0.07em;
+        }
+      }
+      .contact {
+        line-height: 30px;
+        margin: 40px 0 0 20px;
+        #email {
+          font-size: 30px;
+          letter-spacing: 0.06em;
+          color: rgba(17, 17, 17, 0.274);
+          text-decoration: none;
+          line-height: 30px;
+        }
+      }
+    }
+  }

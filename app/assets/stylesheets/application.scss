@@ -1,2 +1,6 @@
-@import "config/font.scss";
-@import "modules/user.scss";
+@import "config/normalize";
+@import "config/font";
+@import "config/colors";
+@import "modules/index";
+@import "modules/header";
+@import "modules/show";

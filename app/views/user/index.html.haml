@@ -1,1 +1,25 @@
+= render "layouts/header"
 .default-container
+  .index-container
+    .top-content
+      .top-content__title.fadeto
+        My Portfolio
+      .top-content__sub-title.fadeto
+        fledgling　engineer
+        %i.fas.fa-kiwi-bird
+    .bottom-content
+      .content-name.fadeto
+        SHINO MITSUDA
+      .gallary
+        .gallary__title.fadeto
+          WORKS
+        %figure#image
+          = image_tag "gorilla.jpeg", height: "230px", width: "240px";
+          %figcaption ゴリラ
+        %figure#image
+          = image_tag "gorilla.jpeg", height: "230px", width: "240px";
+          %figcaption ゴリラ
+        %figure#image
+          = image_tag "gorilla.jpeg", height: "230px", width: "240px";
+          %figcaption　ゴリラ
+

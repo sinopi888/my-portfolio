@@ -1,0 +1,19 @@
+.header {
+  font-family: MODERNESANS, 'YakuHanJP', 'NotoSansJP', sans-serif;
+  height: 75px;
+  // background-color: rgba(133, 121, 109, 0.425);
+  .about {
+    float: right;
+    padding: 5px 5px 0 0;
+    .fas.fa-circle {
+      color: rgb(151, 151, 179);
+    }
+    .about_btn {
+      text-decoration: none;
+      color: rgba(131, 129, 129, 0.884);
+      font-size: 20px;
+      line-height: 75px;
+      padding: 0 30px 0 0;
+    }
+  }
+}

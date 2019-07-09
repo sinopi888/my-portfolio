@@ -65,3 +65,5 @@ gem 'haml-rails'
 gem 'font-awesome-rails'
 gem 'pry-rails'
 gem 'erb2haml'
+gem "jquery-rails"
+gem 'jquery-ui-rails'

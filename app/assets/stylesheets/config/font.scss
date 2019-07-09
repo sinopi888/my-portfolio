@@ -1,1 +1,7 @@
-$font_family: MODERNESANS, 'YakuHanJP', 'NotoSansJP', sans-serif;
+@font-face {
+  font-family: MODERNESANS;
+  src: local('MODERNESANS');
+  src: url('MODERNE SANS.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
